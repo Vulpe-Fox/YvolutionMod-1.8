@@ -1,0 +1,20 @@
+package net.yvolution.mod.blocks;
+
+import net.minecraft.block.BlockContainer;
+import net.minecraft.block.material.Material;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
+import net.yvolution.mod.tileentity.TileEntityPipe;
+
+public class BlockPipe extends BlockContainer {
+
+	protected BlockPipe() {
+		super(Material.ground);
+	}
+
+	@Override
+	public TileEntity createNewTileEntity(World world, int i) {
+		return new TileEntityPipe();
+	}
+
+}

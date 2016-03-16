@@ -1,0 +1,7 @@
+package net.yvolution.mod.tileentity;
+
+import net.minecraft.tileentity.TileEntity;
+
+public class TileEntityPipe extends TileEntity {
+
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "yvolution",
+  "name": "yvolution",
+  "description": "Techy Mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Ivary45"],
+  "credits": "ModdedCrafter23, Mario23657, and MCForever for ideas, The COFH Team for the RF Code, finally in memorium of Bob Ross 1942-1995",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

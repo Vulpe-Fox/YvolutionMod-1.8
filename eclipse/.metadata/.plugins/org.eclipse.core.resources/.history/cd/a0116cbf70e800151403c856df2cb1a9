@@ -1,0 +1,5 @@
+package net.yvolution.mod.tileentity;
+
+public class TileEntityAlloySmelter {
+
+}

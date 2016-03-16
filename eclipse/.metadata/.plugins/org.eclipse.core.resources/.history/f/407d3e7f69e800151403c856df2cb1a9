@@ -1,0 +1,24 @@
+package net.yvolution.mod.gui;
+
+import net.minecraft.client.gui.inventory.GuiContainer;
+import net.minecraft.entity.player.InventoryPlayer;
+import net.minecraft.inventory.Container;
+import net.yvolution.mod.container.ContainerAlloySmelter;
+import net.yvolution.mod.tileentity.TileEntityAlloySmelter;
+
+public class GuiAlloySmelter extends GuiContainer {
+
+	public GuiAlloySmelter(InventoryPlayer invPlayer, TileEntityAlloySmelter teAlloysmelter) {
+		super(new ContainerAlloySmelter(invPlayer, teAlloySmelter));
+	}
+	
+	protected void drawGUIContainerforegroundLayer(int i, int j){
+		
+	}
+
+	@Override
+	protected void drawGuiContainerBackgroundLayer(float p_146976_1_, int p_146976_2_, int p_146976_3_) {
+		
+	}
+
+}

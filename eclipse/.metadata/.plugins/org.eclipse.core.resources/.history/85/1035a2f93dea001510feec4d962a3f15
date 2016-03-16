@@ -1,0 +1,14 @@
+package net.yvolution.proxy;
+
+import cpw.mods.fml.client.registry.ClientRegistry;
+import net.yvolution.mod.tileentity.TileEntityPipe;
+import net.yvolution.mod.tileentity.renderer.TileEntityRenderPipe;
+
+public class ClientProxy extends CommonProxy {
+	
+	public void registerProxies() {
+		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityPipe.class, new TileEntityRenderPipe());
+		
+	}
+
+}

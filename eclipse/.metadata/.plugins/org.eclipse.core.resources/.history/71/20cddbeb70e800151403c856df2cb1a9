@@ -1,0 +1,12 @@
+package net.yvolution.mod.tileentity;
+
+import net.minecraft.item.ItemStack;
+
+public class TileEntityAlloySmelter {
+	
+	private ItemStack slots[];
+	public TileEntityAlloySmelter() {
+		slots = new ItemStack[4];
+	}
+
+}

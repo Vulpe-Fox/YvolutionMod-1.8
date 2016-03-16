@@ -1,0 +1,15 @@
+package net.yvolution.mod.tileentity.renderer;
+
+import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
+import net.minecraft.tileentity.TileEntity;
+
+public class TileEntityRenderPipe extends TileEntitySpecialRenderer {
+
+	@Override
+	public void renderTileEntityAt(TileEntity tileentity, double translationX, double translationY, double translationZ, float f) {
+		
+		
+		
+	}
+
+}

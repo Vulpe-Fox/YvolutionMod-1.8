@@ -1,0 +1,31 @@
+package net.yvolution.mod.container;
+
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.InventoryPlayer;
+import net.minecraft.inventory.Container;
+import net.yvolution.mod.tileentity.TileEntityAlloySmelter;
+
+public class ContainerAlloySmelter extends Container {
+	
+	private TileEntityAlloySmelter smelter;
+	private int dualCookTime;
+	private int dualPower;
+	private int lastItemBurnTime;
+	
+	public ContainerAlloySmelter(InventoryPlayer invPlayer, TileEntityAlloySmelter teAlloySmelter){
+		dualCookTime = 0;
+		dualPower = 0;
+		lastItemBurnTime = 0;
+		
+		smelter = teAlloySmelter;
+		
+		this.addSlotToContainer(new Slot(teAlloySmelter, 0, 56, 25));
+		
+	}
+
+	@Override
+	public boolean canInteractWith(EntityPlayer p_75145_1_) {
+		return false;
+	}
+
+}
